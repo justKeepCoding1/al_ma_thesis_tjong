@@ -21,12 +21,13 @@ from torch.autograd import Variable
 
 from cityscapesscripts.helpers.labels import labels
 
-from al_kitti.presets import segmen_preset as segmen_preset
-from al_kitti.presets import qbc_preset as qbc_preset
-from al_kitti.presets import dataset_preset as dataset_preset
-from al_kitti.presets import models_preset as models_preset
-from al_kitti.presets.evalPixelLevelSemanticLabeling import main as cityscapes_eval
-from al_kitti.process.timer import Timer
+from al_ma_thesis_tjong.presets import segmen_preset as segmen_preset
+from al_ma_thesis_tjong.presets import qbc_preset as qbc_preset
+from al_ma_thesis_tjong.presets import dataset_preset as dataset_preset
+from al_ma_thesis_tjong.presets import models_preset as models_preset
+from al_ma_thesis_tjong.presets.evalPixelLevelSemanticLabeling import main as cityscapes_eval
+
+from al_ma_thesis_tjong.process.timer import Timer
 
 
 def create_pred_img(fcn_model, val_loader, inference_path, color_path):

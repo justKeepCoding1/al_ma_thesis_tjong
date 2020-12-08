@@ -16,8 +16,7 @@ from torch.utils.data import Subset, DataLoader, BatchSampler, SubsetRandomSampl
 from torchvision import datasets, transforms
 from torch.optim.lr_scheduler import StepLR
 
-import active_learning_prototypes.presets.datasets_preset as datasets_preset
-from active_learning_prototypes.presets import qbc_preset as qbc_preset
+import al_ma_thesis_tjong.presets.dataset_preset as datasets_preset
 
 
 # https://github.com/pytorch/examples/blob/master/mnist/main.py

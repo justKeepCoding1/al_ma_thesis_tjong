@@ -5,8 +5,8 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from torchvision import transforms
 
-from active_learning_prototypes.presets.datasets_preset import Dataset_MNIST_n
-from active_learning_prototypes.presets.models_preset import Encoder, Autoencoder
+from al_ma_thesis_tjong.presets.dataset_preset import Dataset_MNIST_n
+from al_ma_thesis_tjong.presets.models_preset import Encoder, Autoencoder
 
 
 '''

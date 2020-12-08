@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 
 from torch.utils.data import DataLoader
 
-import active_learning_prototypes.presets.datasets_preset as datasets_preset
+import al_ma_thesis_tjong.presets.dataset_preset as datasets_preset
 
 
 def main():

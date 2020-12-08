@@ -9,8 +9,8 @@ import numpy as np
 from kmeans_pytorch import kmeans
 from xgboost import XGBClassifier
 
-import active_learning_prototypes.presets.datasets_preset as datasets_preset
-from active_learning_prototypes.presets import qbc_preset as qbc_preset
+import al_ma_thesis_tjong.presets.dataset_preset as datasets_preset
+from al_ma_thesis_tjong.presets import qbc_preset as qbc_preset
 
 '''
 Train ensemble xgboost using QBC, the main goal is to use minimum amount of data at the last batch iteration

@@ -14,7 +14,7 @@ import multiprocessing
 from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completed
 import time
 
-from al_kitti.presets import segmen_preset as segmen_preset
+from al_ma_thesis_tjong.presets import segmen_preset as segmen_preset
 
 
 # First average the probability of each class from model votes

@@ -1,11 +1,11 @@
 '''Automate test on entire MNIST and F_MNIST, both reduced and unreduced'''
 
 
-from active_learning_prototypes.always_from_scratch import qbc_cnn_ce as ce_scratch, \
+from al_ma_thesis_tjong.always_from_scratch import qbc_cnn_ce as ce_scratch, \
     qbc_cnn_ve as ve_scratch, qbc_cnn_random as random_scratch
-from active_learning_prototypes.only_new_data import qbc_cnn_ce as ce_new, \
+from al_ma_thesis_tjong.only_new_data import qbc_cnn_ce as ce_new, \
     qbc_cnn_ve as ve_new, qbc_cnn_random as random_new
-from active_learning_prototypes.incremental_with_step import qbc_cnn_ce as ce_increment, \
+from al_ma_thesis_tjong.incremental_with_step import qbc_cnn_ce as ce_increment, \
     qbc_cnn_ve as ve_increment, qbc_cnn_random as random_increment
 
 '''

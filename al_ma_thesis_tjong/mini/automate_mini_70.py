@@ -1,4 +1,4 @@
-from al_kitti.mini import bulk_70_mini as random_mini_70
+from al_ma_thesis_tjong.mini import bulk_70_mini as random_mini_70
 
 
 if __name__ == '__main__':

@@ -130,3 +130,15 @@ def restore_dropout(fcn_model, orig_prob_list):
 # apply dropout on line 144/145/146, but later is better
 # To apply dropout even during .eval()
 def enable_dropout(fcn_model, p):
+    prob_list = []
+    """fcn_model_0 = fcn_model.to('cuda:0')
+    del fcn_model"""
+    for each_module in fcn_model.modules():
+        if each_module.__class__.__name__.startswith('Dropout'):
+            each_module.train()
+            prob_list.append(each_module.p)
+            each_module.p = p
+    """fcn_model_0 = fcn_model_0.cuda()
+    fcn_model = nn.DataParallel(fcn_model_0)
+    # print(fcn_model)"""
+    return fcn_model, prob_list

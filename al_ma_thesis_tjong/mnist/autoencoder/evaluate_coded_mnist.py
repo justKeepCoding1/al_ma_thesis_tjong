@@ -2,7 +2,7 @@ import torch
 from torch.utils.data import DataLoader
 import numpy as np
 
-from active_learning_prototypes.presets.datasets_preset import Reduced_MNIST
+from al_ma_thesis_tjong.presets.dataset_preset import Reduced_MNIST
 
 # https://github.com/subhadarship/kmeans_pytorch/blob/master/kmeans_pytorch/__init__.py
 from kmeans_pytorch import kmeans

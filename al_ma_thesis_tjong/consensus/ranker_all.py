@@ -1,7 +1,9 @@
 
-from al_kitti.consensus import ve_ranker as ve_ranker
+from al_ma_thesis_tjong.consensus import ve_ranker as ve_ranker
 
-from al_kitti.consensus import consensus_ranker as ce_ranker
+from al_ma_thesis_tjong.consensus import consensus_ranker as ce_ranker
+
+from al_ma_thesis_tjong.process.timer import Timer
 
 
 if __name__ == '__main__':

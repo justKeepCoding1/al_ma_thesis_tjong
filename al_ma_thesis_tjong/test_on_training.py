@@ -6,8 +6,8 @@ from os.path import dirname as dr, abspath
 import numpy as np
 from torch.utils.data import DataLoader
 from torchvision import transforms
-import active_learning_prototypes.presets.datasets_preset as datasets_preset
-from active_learning_prototypes.presets import qbc_preset as qbc_preset
+import al_ma_thesis_tjong.presets.dataset_preset as datasets_preset
+from al_ma_thesis_tjong.presets import qbc_preset as qbc_preset
 
 
 def csv_train_reader(csv_path, data_name):

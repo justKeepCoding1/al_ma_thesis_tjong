@@ -6,8 +6,8 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from torchvision import transforms
 
-from active_learning_prototypes.presets.datasets_preset import Dataset_F_MNIST_n
-from active_learning_prototypes.presets.models_preset import Autoencoder
+from al_ma_thesis_tjong.presets.dataset_preset import Dataset_F_MNIST_n
+from al_ma_thesis_tjong.presets.models_preset import Encoder, Autoencoder
 
 '''
 This file create a trained MNIST, which can be used to reduce MNIST data

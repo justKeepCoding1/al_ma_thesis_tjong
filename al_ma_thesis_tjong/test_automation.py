@@ -1,6 +1,6 @@
 '''Automate test on entire MNIST and F_MNIST, both reduced and unreduced'''
 
-from active_learning_prototypes import qbc_xgboost as qbc_test
+from al_ma_thesis_tjong import qbc_xgboost as qbc_test
 
 
 def main():
